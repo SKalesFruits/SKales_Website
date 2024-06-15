@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "10hXma97K/9zSiTHpN4UjPmKcEjSD3dBt08Kak9TbyEyaMaL7UaBdUycn/C0M04PIVK5beuRm/aTuMbMZ5foIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bhush\\source\\repos\\SKales_Website\\backend\\Skales_Website\\Skales_Website\\Skales_Website.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bhush\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\bhush\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\bhush\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\bhush\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\bhush\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\bhush\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
