@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Skales_Backend.props" />
+</Project>
