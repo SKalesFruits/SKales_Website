@@ -1,0 +1,68 @@
+.product-details {
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-image-details img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.product-info-details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-name-details {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-description-details {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.product-nutrition-details {
+  margin-bottom: 20px;
+}
+
+.product-purchase-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-price-details {
+  font-size: 1.5rem;
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.add-to-cart-btn-details {
+  background-color: #e67e22;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn-details:hover {
+  background-color: #d35400;
+}

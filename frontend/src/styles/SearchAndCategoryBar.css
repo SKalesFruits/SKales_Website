@@ -1,0 +1,30 @@
+.search-and-category-bar-container {
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  width: 100vw; /* Full viewport width */
+  height: 10vh; /* 15% of viewport height */
+  box-sizing: border-box; /* Includes padding and border in element's total width and height */
+  gap: 10px; /* Optional: adds space between items */
+}
+
+.top-selling-products {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+}
+
+.product-one,
+.product-two {
+  padding: 10px 30px 10px 30px;
+  border-radius: 25px;
+  background-color: #e6e6e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.vertical-line {
+  width: 0;
+  height: 5vh;
+  border: 1px solid;
+}

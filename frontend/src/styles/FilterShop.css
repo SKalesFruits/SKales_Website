@@ -1,0 +1,274 @@
+.filter-shop-container {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  gap: 1.5rem;
+  
+}
+
+@media (max-width: 768px) {
+  .filter-shop-container {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+.search-bar-shop {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0.2rem;
+  border: 1px solid #eee;
+}
+
+.search-bar-shop input {
+  flex-grow: 1;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+}
+
+.search-bar-shop input::placeholder {
+  color: rgb(163, 163, 163);
+}
+
+.dock-and-reset-btns {
+  height: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+#reset-icon {
+  height: 1.7rem;
+  width: 5rem;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  transition: 0.5s ease-in-out;
+  font-size: small;
+  background-color: transparent;
+  border: 1px solid #dfdfdf;
+  cursor: pointer;
+}
+
+#reset-icon:hover {
+  background-color: #dfdfdf;
+  color: #333;
+}
+
+.dock-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.dock-icon:hover {
+  transform: scale(1.1);
+}
+
+.search-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #5a5a5a;
+  margin-bottom: 1rem;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.category-button {
+  background-color: #fafafa;
+  color: #333;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.category-button:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+.category-button.selected {
+  background-color: #ff6f61;
+  color: #fff;
+  border-color: #ff6f61;
+}
+
+.category-button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.price-range-section {
+  margin: 20px 0;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.sort-by button {
+  background-color: #fafafa;
+  color: #333;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  margin-top: 2px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.sort-by button:hover {
+  transform: translateX(-3px);
+  cursor: pointer;
+}
+
+#reset-btn {
+  background-color: #dfdfdf;
+  color: #333;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+#reset-btn:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+
+.filter-shop-container {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  gap: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  .filter-shop-container {
+    width: 25vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .filter-shop-container {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .filter-shop-container {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .categories {
+    gap: 0.5rem;
+  }
+
+  .category-button {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .category-button svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.3rem;
+  }
+
+  .sort-by button {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dock-and-reset-btns {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  #reset-icon {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .search-bar-shop {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .search-bar-shop input {
+    width: 100%;
+  }
+
+  .categories {
+    justify-content: space-between;
+  }
+
+  .category-button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .sort-by {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .sort-by button {
+    width: 100%;
+  }
+}
+

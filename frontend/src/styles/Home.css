@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grey+Qo&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+.home-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  padding-top: 8vh;
+  background-color: rgb(255, 247, 247);
+}
+
+.menu-modal-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.menu-modal-content.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.close-menu-container {
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-container {
+  height: 85vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#close-icon {
+  height: 4vh;
+  cursor: pointer;
+}
+
+#close-icon-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-container-hamb {
+  height: 85vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-items-hamb {
+  height: 85vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-items-hamb p {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 4.5rem;
+  transition: 0.5s ease-in-out;
+}
+
+.menu-items-hamb p:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

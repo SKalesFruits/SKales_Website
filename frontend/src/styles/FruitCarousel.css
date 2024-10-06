@@ -1,0 +1,81 @@
+.carousel-container-fruits {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 100%;
+}
+
+.carousel-title-fruits {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.carousel-subtitle-fruits {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.carousel-fruits {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card-fruits {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  flex: 0 0 auto;
+  text-align: left;
+  padding: 1rem;
+}
+
+.card-image-fruits {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-content-fruits {
+  margin-top: 1rem;
+}
+
+.card-title-fruits {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card-description-fruits {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #777;
+  margin: 0.5rem 0;
+}
+
+.view-button-fruits {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  background: #28a745;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.view-button-fruits:hover {
+  background: #218838;
+}
