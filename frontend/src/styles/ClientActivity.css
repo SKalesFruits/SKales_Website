@@ -1,0 +1,106 @@
+.client-activity {
+  font-family: Arial, sans-serif;
+}
+
+.client-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.client-info {
+  background-color: #f4f6f8;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.client-info p {
+  margin: 0;
+  color: #666;
+}
+
+.client-info h2 {
+  margin-top: 8px;
+  color: #333;
+}
+
+.client-tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px 20px;
+  background-color: #e7ebf0;
+  border: none;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tab:not(:last-child) {
+  margin-right: 2px;
+}
+
+.tab.active {
+  background-color: #0a423e;
+  color: white;
+}
+
+.tab:hover {
+  background-color: #0a423e;
+  color: white;
+}
+
+.client-list {
+  background-color: #f4f6f8;
+  padding: 20px;
+  border-radius: 0 8px 8px 8px;
+  border-top: 3px solid #0a423e;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.client-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.client-list th,
+.client-list td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.client-list th {
+  background-color: #0a423e;
+  color: white;
+}
+
+.client-list td {
+  background-color: white;
+}
+
+.client-list tr:hover td {
+  background-color: #f1f3f5;
+}
+
+.client-list div {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  padding: 20px 0;
+}

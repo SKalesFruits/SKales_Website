@@ -1,0 +1,56 @@
+/* src/components/Dropdown.css */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background-color: #e6e6e6; /* Button color */
+  color: #5b5b5b;
+  border: none;
+  padding: 10px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.dropdown-button:hover {
+  background-color: #2980b9; /* Darker button color on hover */
+}
+
+.dropdown-arrow {
+  margin-left: 10px;
+  font-size: 12px;
+  transition: transform 0.3s;
+}
+
+.dropdown-arrow.open {
+  transform: rotate(180deg); /* Rotate arrow when dropdown is open */
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1; /* Background color on hover */
+}

@@ -1,0 +1,123 @@
+.add-new-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0a423e;
+  width: 50rem;
+  height: 30rem;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3rem;
+  color: #eee;
+  font-size: medium;
+}
+
+#add-new-title {
+  font-size: x-large;
+}
+
+.modal-content-stock {
+  width: 50rem;
+  height: 30rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modal-titles {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-align: start;
+  flex-direction: column;
+  width: 15rem;
+  height: 20rem;
+}
+
+.modal-titles p {
+  margin-left: 10%;
+}
+
+.modal-input {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: start;
+  flex-direction: column;
+  width: 30rem;
+  height: 20rem;
+}
+
+.modal-input input {
+  width: 22rem;
+  height: 5vh;
+  border-radius: 1rem;
+  padding-left: 5%;
+}
+
+.modal-input input:focus-visible,
+.modal-input input:focus {
+  outline: none;
+  border: none;
+  border-bottom: none;
+}
+
+.overlay-stock {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.734);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#add-new-product-btn {
+  background-color: #0a423e;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+#add-new-product-btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#add-product-submit-btn {
+  background-color: #0a423e;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  margin-top: 2px;
+  margin-bottom: 5%;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+#add-product-submit-btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.product-btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 25rem;
+}

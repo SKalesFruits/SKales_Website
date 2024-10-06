@@ -1,0 +1,36 @@
+.dashboard-header {
+  padding: 20px;
+  background-color: #f4f5f7;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+}
+
+.stat-item {
+  background-color: #eaf7f3;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.stat-icon {
+  font-size: 36px;
+  margin-right: 15px;
+}
+
+.stat-details {
+  text-align: left;
+}
+
+.stat-details p {
+  margin: 0;
+  color: #555;
+}
+
+.stat-details h2 {
+  margin: 0;
+  color: #333;
+}

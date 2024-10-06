@@ -1,0 +1,75 @@
+.checkout-container {
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-title {
+  font-size: 1.5rem;
+  color: #111;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.location-section,
+.order-summary-section {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.location-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.confirm-location-btn {
+  background-color: #ffa41c;
+  color: #111;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.confirm-location-btn:hover {
+  background-color: #f08804;
+}
+
+.location-confirmation {
+  margin-top: 0.5rem;
+  color: green;
+  font-weight: bold;
+}
+
+.proceed-to-payment-btn {
+  background-color: #ffa41c;
+  color: #111;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.proceed-to-payment-btn:hover {
+  background-color: #f08804;
+}

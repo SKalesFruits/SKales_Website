@@ -1,0 +1,51 @@
+analytics:
+    totalShipments:number
+    pendingOrders:number
+    totalRevenue:number
+    newCLientsThisWeek:number
+    newCLientsThisMonth:number
+    newCLientsThisYear:number
+
+Order:
+    orderId:number
+    userName:string
+    dateOfOrderPlaced:date/string
+    currentStatus:string
+    orderLocation:string
+    orderAddress:string
+    totalOrderAmount:number
+    items:Array
+        [Fruit1,Fruit2,Fruit3]
+    fleetAssignedId:number
+    fleetAssignedName:string
+
+User:
+    userId:number
+    userName:string
+    userContact:number
+    userEmail:string
+    fdbkRating:number
+    lastOrder:date/string
+    numberOfOrdersTillDate:number
+
+Fleet:
+    fleetId:number
+    fleetName:string
+    doj:date/string
+    primaryLocation:string
+    totalOrdersCompleted:number
+    currentOrders:number
+    totalRevenueGenerated:number
+
+products:
+    productId:number
+    productName:string
+    productSource:string
+    productAddedOnDate:date/string
+    productDescription:string
+    productStock:number
+    productCostPerKg:number
+    popularityRating:number
+    productType:string
+    productReviews:number
+
